@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import {ProductContext} from "../App.js";
+import {CartContext} from "../App.js";
 
 
 // Components
@@ -7,7 +7,7 @@ import Item from './ShoppingCartItem';
 
 const ShoppingCart = props => {
 	
-	const cart = useContext(ProductContext).cart;
+	const {cart}= useContext(CartContext);
 
 	const getCartTotal = () => {
 		return cart.reduce((acc, value) => {

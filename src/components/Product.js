@@ -6,7 +6,8 @@ import {ProductContext} from "../App.js";
 
 const Product = props => {
 
-	//const product = useContext(ProductContext).product;
+	//const {addItem} = useContext(ProductContext);
+	//const products = useContext(ProductContext);
 	
 
 	return (
