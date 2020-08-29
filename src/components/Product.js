@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import {ProductContext} from "../App.js";
+import {ProductContext} from "../contexts/allContexts";
 //import {addItem} from "../App.js";
 
 

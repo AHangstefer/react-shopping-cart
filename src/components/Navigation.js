@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import { NavLink } from 'react-router-dom';
 //import {ProductContext} from "./contexts/allContexts.js"
-import {CartContext} from "../App.js";
+import {CartContext} from "../contexts/allContexts.js"
 
 
 const Navigation = props => {

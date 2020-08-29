@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import {CartContext} from "../App.js";
+import {CartContext} from "../contexts/allContexts";
 
 
 // Components
@@ -19,6 +19,7 @@ const ShoppingCart = props => {
 
 	return (
 		<div className="shopping-cart">
+
 			{cart.map(item => (
 				<Item key={item.id} {...item} />
 			))}
